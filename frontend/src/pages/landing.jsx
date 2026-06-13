@@ -10,12 +10,12 @@ export default function LandingPage() {
         <div className='landingPageContainer'>
             <nav>
                 <div className='navHeader'>
-                    <h2>Apna Video Call</h2>
+                    <h2>PeerConnect</h2>
                 </div>
                 <div className='navlist'>
                     <p onClick={() => {
                         router("/aljk23")
-                    }}>Join as Guest</p>
+                    }}>Join as a Guest</p>
                     <p onClick={() => {
                         router("/auth")
 
@@ -34,9 +34,9 @@ export default function LandingPage() {
                 <div>
                     <h1><span style={{ color: "#FF9839" }}>Connect</span> with your loved Ones</h1>
 
-                    <p>Cover a distance by Apna Video Call</p>
+                    <p>Bridge distances through seamless video communication</p>
                     <div role='button'>
-                        <Link to={"/auth"}>Get Started</Link>
+                        <Link to={"/auth"}>Connect Now</Link>
                     </div>
                 </div>
                 <div>
